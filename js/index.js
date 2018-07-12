@@ -10,4 +10,4 @@ var mySwiper = new Swiper ('.swiper-container', {
     pagination: '.swiper-pagination',//如果需要分页器
     
 })  
-mySwiper.slideTo(1);
+//mySwiper.slideTo(1);
