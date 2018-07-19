@@ -24,7 +24,7 @@ body {
     .swiper-slide01 {
         width: 100%;
         background: url(../img/bg-header.jpg);
-        background-size: cover;
+        background-size: 100% 100%;
         .border {
             position: absolute;
             display: block;
@@ -65,7 +65,7 @@ body {
     .swiper-slide02 {
         width: 100%;
         background: url(../img/bg-blue.jpg);
-        background-size: cover;
+        background-size: 100% 100%;
         position: relative;
         .floor-fff {
             position: absolute;
@@ -110,8 +110,114 @@ body {
     }
     .swiper-slide03 {
         width: 100%;
-        background: url(../img/bg-green.png);
+        background: url(../img/bg03.jpg);
         background-size: cover;
+        .con{
+            .box-orient(vertical);
+        }
+        span{
+            display: block;
+        }
+        .title{
+            font-weight: bold;
+            font-size: 56px;
+            color: #fff;
+        }
+        .item-wrap{
+            .box();
+            margin-top: 86px;
+//          margin-bottom: 106px;
+            .item{
+                margin-right: 40px;
+                position: relative;
+                width: 171px;
+                height: 197px;
+                &.item01{
+                    background: url(../img/item01.png);
+                }
+                &.item02{
+                    background: url(../img/item02.png);
+                }
+                &.item03{
+                    background: url(../img/item03.png);
+                }
+                &.item04{
+                    background: url(../img/item04.png);
+                }
+                &.item05{
+                    background: url(../img/item05.png);
+                }
+                &.item06{
+                    background: url(../img/item06.png);
+                }
+                &.item07{
+                    background: url(../img/item08.png);
+                }
+                &.item08{
+                    background: url(../img/item09.png);
+                }
+                &.item09{
+                    background: url(../img/item07.png);
+                }
+                
+                .line{
+                    position: absolute;
+                    left: 50%;
+                    width: 21px;
+                    height: 20px;
+                    background: url(../img/line.png) center no-repeat;
+                    &.line01{
+                        bottom: -19px;
+                        margin-left: -19px;
+                    }
+                    &.line02{
+                        top: -19px;
+                        margin-left: -19px;
+                        .rotate (90deg);
+                    }
+                    &.line03{
+                        top: -19px;
+                        
+                    }
+                    &.line04{
+                        bottom: -19px;
+                        .rotate (90deg);
+                    }
+                    
+                }
+                .text{
+                    position: absolute;
+                    text-decoration: underline; 
+                    color: #eaf5d0;
+                    white-space:nowrap;
+                    font-size: 20px;
+                    &.text01{
+                        bottom: -22px;
+                        left: -280px;
+                    }
+                    &.text02{
+                        top: -38px;
+                        left: -435px;
+                    }
+                    &.text03{
+                        top: -38px;
+                        left: 105px;
+                    }
+                    &.text04{
+                        bottom: -22px;
+                        left: 105px;
+                    }
+                    &.text05{
+                        bottom: -22px;
+                        left: -360px;
+                    }
+                    &.text06{
+                        top: -38px;
+                        left: -182px;
+                    }
+                }
+            }
+        }
     }
     .swiper-slide04 {
         width: 100%;
