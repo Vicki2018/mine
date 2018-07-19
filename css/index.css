@@ -213,8 +213,7 @@ body {
 }
 .swiper-container .swiper-slide03 {
   width: 100%;
-  background: url(../img/bg03.jpg);
-  background-size: cover;
+  background-color: #FFFFFF;
 }
 .swiper-container .swiper-slide03 .con {
   -webkit-box-orient: vertical;
@@ -227,7 +226,7 @@ body {
 .swiper-container .swiper-slide03 .title {
   font-weight: bold;
   font-size: 56px;
-  color: #fff;
+  color: #18094e;
 }
 .swiper-container .swiper-slide03 .item-wrap {
   display: -webkit-box;
@@ -302,7 +301,7 @@ body {
 .swiper-container .swiper-slide03 .item-wrap .item .text {
   position: absolute;
   text-decoration: underline;
-  color: #eaf5d0;
+  color: #18094e;
   white-space: nowrap;
   font-size: 20px;
 }
